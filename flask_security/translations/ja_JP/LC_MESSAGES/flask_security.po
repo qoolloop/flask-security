@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Flask-Security 2.0.1\n"
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
 "POT-Creation-Date: 2017-06-06 13:23+0200\n"
-"PO-Revision-Date: 2017-11-25 13:47+0900\n"
+"PO-Revision-Date: 2017-11-25 14:00+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr "ようこそ"
 
 #: flask_security/core.py:101
 msgid "Please confirm your email"
-msgstr ""
+msgstr "メール アドレスの検証"
 
 #: flask_security/core.py:102
 msgid "Login instructions"
@@ -112,7 +112,7 @@ msgstr "メール アドレスの検証が必要です"
 #: flask_security/core.py:162
 #, python-format
 msgid "Confirmation instructions have been sent to %(email)s."
-msgstr ""
+msgstr "%(email)sにメール アドレス検証手順が再送信されました。"
 
 #: flask_security/core.py:164
 #, python-format
@@ -292,7 +292,7 @@ msgstr "このリンクを開いてください。"
 
 #: flask_security/templates/security/email/confirmation_instructions.html:1
 msgid "Please confirm your email through the link below:"
-msgstr ""
+msgstr "以下のリンクからメール アドレスを検証してください："
 
 #: flask_security/templates/security/email/confirmation_instructions.html:3
 #: flask_security/templates/security/email/welcome.html:6
