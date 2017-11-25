@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Flask-Security 2.0.1\n"
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
 "POT-Creation-Date: 2017-06-06 13:23+0200\n"
-"PO-Revision-Date: 2017-11-25 11:46+0900\n"
+"PO-Revision-Date: 2017-11-25 12:00+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,11 +56,13 @@ msgstr ""
 #: flask_security/core.py:134
 #, python-format
 msgid "Thank you. Confirmation instructions have been sent to %(email)s."
-msgstr "ご登録ありがとうございます。%(email)sに有効化手順が送信されました。"
+msgstr ""
+"ご登録ありがとうございます。%(email)sにメール アドレス検証手順が送信されま"
+"した。"
 
 #: flask_security/core.py:138
 msgid "Thank you. Your email has been confirmed."
-msgstr ""
+msgstr "ありがとうございます。メール アドレスが検証されました。"
 
 #: flask_security/core.py:140
 msgid "Your email has already been confirmed."
@@ -222,7 +224,7 @@ msgstr "ユーザ登録"
 
 #: flask_security/forms.py:35
 msgid "Resend Confirmation Instructions"
-msgstr "有効化手順の再送信"
+msgstr "検証手順の再送信"
 
 #: flask_security/forms.py:36
 msgid "Recover Password"
@@ -258,7 +260,7 @@ msgstr "パスワードを忘れた場合"
 
 #: flask_security/templates/security/_menu.html:12
 msgid "Confirm account"
-msgstr "アカウントの有効化"
+msgstr "メール アドレスの検証"
 
 #: flask_security/templates/security/change_password.html:3
 msgid "Change password"
@@ -295,7 +297,7 @@ msgstr ""
 #: flask_security/templates/security/email/confirmation_instructions.html:3
 #: flask_security/templates/security/email/welcome.html:6
 msgid "Confirm my account"
-msgstr "アカウントの有効化"
+msgstr "メール アドレスの検証"
 
 #: flask_security/templates/security/email/login_instructions.html:1
 #: flask_security/templates/security/email/welcome.html:1
@@ -317,4 +319,4 @@ msgstr ""
 
 #: flask_security/templates/security/email/welcome.html:4
 msgid "You can confirm your email through the link below:"
-msgstr "以下のリンクによりアカウントを有効化できます。"
+msgstr "以下のリンクによりメール アドレスを検証できます。"
