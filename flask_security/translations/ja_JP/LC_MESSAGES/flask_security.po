@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Flask-Security 2.0.1\n"
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
 "POT-Creation-Date: 2017-06-06 13:23+0200\n"
-"PO-Revision-Date: 2017-11-25 13:12+0900\n"
+"PO-Revision-Date: 2017-11-25 13:47+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,11 +39,11 @@ msgstr ""
 #: flask_security/core.py:103
 #: flask_security/templates/security/email/reset_notice.html:1
 msgid "Your password has been reset"
-msgstr ""
+msgstr "パスワード変更"
 
 #: flask_security/core.py:104
 msgid "Your password has been changed"
-msgstr ""
+msgstr "パスワードが変更されました。"
 
 #: flask_security/core.py:106
 msgid "Password reset instructions"
@@ -66,7 +66,7 @@ msgstr "ありがとうございます。メール アドレスが検証され�
 
 #: flask_security/core.py:140
 msgid "Your email has already been confirmed."
-msgstr ""
+msgstr "メール アドレスは検証済みです"
 
 #: flask_security/core.py:142
 msgid "Invalid confirmation token."
@@ -75,7 +75,7 @@ msgstr ""
 #: flask_security/core.py:144
 #, python-format
 msgid "%(email)s is already associated with an account."
-msgstr ""
+msgstr "%(email)s のアカウントは既に作成されています"
 
 #: flask_security/core.py:146
 msgid "Password does not match"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: flask_security/core.py:160
 msgid "Email requires confirmation."
-msgstr ""
+msgstr "メール アドレスの検証が必要です"
 
 #: flask_security/core.py:162
 #, python-format
@@ -163,11 +163,11 @@ msgstr "パスワードは6文字以上でなければなりません"
 
 #: flask_security/core.py:187
 msgid "Specified user does not exist"
-msgstr "メール アドレスまたはパスワードを確認してください"
+msgstr "入力を確認してください"
 
 #: flask_security/core.py:189
 msgid "Invalid password"
-msgstr "メール アドレスまたはパスワードを確認してください"
+msgstr "入力を確認してください"
 
 #: flask_security/core.py:191
 msgid "You have successfully logged in."
@@ -185,11 +185,11 @@ msgstr "パスワードの再設定が完了しました。"
 
 #: flask_security/core.py:198
 msgid "Your new password must be different than your previous password."
-msgstr ""
+msgstr "新旧パスワードが同じです"
 
 #: flask_security/core.py:201
 msgid "You successfully changed your password."
-msgstr ""
+msgstr "パスワードが変更されました"
 
 #: flask_security/core.py:203
 msgid "Please log in to access this page."
@@ -240,11 +240,11 @@ msgstr "パスワード再入力"
 
 #: flask_security/forms.py:39
 msgid "New Password"
-msgstr ""
+msgstr "新しいパスワード"
 
 #: flask_security/forms.py:40
 msgid "Change Password"
-msgstr ""
+msgstr "変更"
 
 #: flask_security/forms.py:41
 msgid "Send Login Link"
@@ -280,15 +280,15 @@ msgstr ""
 
 #: flask_security/templates/security/email/change_notice.html:1
 msgid "Your password has been changed."
-msgstr ""
+msgstr "パスワードが変更されました。"
 
 #: flask_security/templates/security/email/change_notice.html:3
 msgid "If you did not change your password,"
-msgstr ""
+msgstr "パスワードを変更した覚えがない場合には、"
 
 #: flask_security/templates/security/email/change_notice.html:3
 msgid "click here to reset it"
-msgstr ""
+msgstr "このリンクを開いてください。"
 
 #: flask_security/templates/security/email/confirmation_instructions.html:1
 msgid "Please confirm your email through the link below:"
