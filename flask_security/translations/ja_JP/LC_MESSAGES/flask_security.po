@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Flask-Security 2.0.1\n"
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
 "POT-Creation-Date: 2017-06-06 13:23+0200\n"
-"PO-Revision-Date: 2017-11-25 12:00+0900\n"
+"PO-Revision-Date: 2017-11-25 12:19+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: flask_security/core.py:106
 msgid "Password reset instructions"
-msgstr ""
+msgstr "パスワード再設定手順"
 
 #: flask_security/core.py:132
 msgid "You do not have permission to view this resource."
@@ -92,7 +92,7 @@ msgstr ""
 #: flask_security/core.py:152
 #, python-format
 msgid "Instructions to reset your password have been sent to %(email)s."
-msgstr ""
+msgstr "パスワードの再設定手順が %(email)s に送信されました。"
 
 #: flask_security/core.py:155
 #, python-format
@@ -315,7 +315,7 @@ msgstr ""
 
 #: flask_security/templates/security/email/reset_instructions.html:1
 msgid "Click here to reset your password"
-msgstr ""
+msgstr "パスワードを再設定するためにこのリンクを開いてください。"
 
 #: flask_security/templates/security/email/welcome.html:4
 msgid "You can confirm your email through the link below:"
