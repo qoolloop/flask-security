@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Flask-Security 2.0.1\n"
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
 "POT-Creation-Date: 2017-06-06 13:23+0200\n"
-"PO-Revision-Date: 2017-11-25 14:00+0900\n"
+"PO-Revision-Date: 2017-11-26 16:31+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +70,7 @@ msgstr "メール アドレスは検証済みです"
 
 #: flask_security/core.py:142
 msgid "Invalid confirmation token."
-msgstr ""
+msgstr "無効なリンクです"
 
 #: flask_security/core.py:144
 #, python-format
