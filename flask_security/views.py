@@ -261,9 +261,8 @@ def forgot_password():
             do_flash(*get_message('PASSWORD_RESET_REQUEST',
                      email=form.user.email))
 
-        # Originally didn't redirect to login_url
-        return redirect(get_url(_security.post_forgot_view) or
-                        get_url(_security.login_url))
+            if _security.post_forgot_view:
+                return redirect(get_url(_security.post_forgot_view))
 
     if request.is_json:
         return _render_json(form, include_user=False)
