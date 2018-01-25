@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Flask-Security 2.0.1\n"
 "Report-Msgid-Bugs-To: info@inveniosoftware.org\n"
 "POT-Creation-Date: 2017-06-06 13:23+0200\n"
-"PO-Revision-Date: 2018-01-25 14:04+0900\n"
+"PO-Revision-Date: 2018-01-25 14:12+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,6 @@ msgstr ""
 "Language: ja\n"
 
 #: flask_security/core.py:99
-#, fuzzy
 msgid "Login Required"
 msgstr "ログインが必要です"
 
@@ -79,7 +78,6 @@ msgid "%(email)s is already associated with an account."
 msgstr "%(email)s のアカウントは既に作成されています"
 
 #: flask_security/core.py:146
-#, fuzzy
 msgid "Password does not match"
 msgstr "パスワードが一致しません"
 
@@ -204,7 +202,6 @@ msgid "Please log in to access this page."
 msgstr "ログインしてください"
 
 #: flask_security/core.py:205
-#, fuzzy
 msgid "Please reauthenticate to access this page."
 msgstr "再度ログインしてください"
 
