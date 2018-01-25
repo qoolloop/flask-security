@@ -70,6 +70,7 @@ _default_config = {
     'CONFIRM_ERROR_VIEW': None,
     'POST_REGISTER_VIEW': None,
     'POST_FORGOT_VIEW': None,
+    'POST_SEND_CONFIRMATION_VIEW': None,
     'POST_CONFIRM_VIEW': None,
     'POST_RESET_VIEW': None,
     'POST_CHANGE_VIEW': None,
